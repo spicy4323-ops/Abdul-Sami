@@ -1,0 +1,62 @@
+{
+  "collections": [
+    {
+      "path": "users",
+      "description": "Root collection for users",
+      "documents": [
+        {
+          "path": "{userId}",
+          "fields": {
+            "displayName": "string",
+            "email": "string",
+            "photoUrl": "string",
+            "lastActive": "timestamp"
+          },
+          "subcollections": [
+            {
+              "path": "notes",
+              "description": "User notes",
+              "fields": {
+                "title": "string",
+                "content": "string",
+                "category": "string",
+                "timestamp": "timestamp"
+              }
+            },
+            {
+              "path": "reminders",
+              "description": "User reminders",
+              "fields": {
+                "title": "string",
+                "dueTimeMillis": "number",
+                "isCompleted": "boolean",
+                "priority": "string",
+                "createdAt": "timestamp"
+              }
+            },
+            {
+              "path": "memories",
+              "description": "AI memories",
+              "fields": {
+                "key": "string",
+                "value": "string",
+                "category": "string",
+                "timestamp": "timestamp"
+              }
+            },
+            {
+              "path": "chat_messages",
+              "description": "Conversation history",
+              "fields": {
+                "sender": "string",
+                "text": "string",
+                "timestamp": "timestamp",
+                "actionType": "string?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

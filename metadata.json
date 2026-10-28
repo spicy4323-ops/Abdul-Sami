@@ -1,0 +1,6 @@
+{
+  "name": "Ayesha AI",
+  "description": "Premium Personal AI Assistant with real-time voice, neural orb, device automation, and persistent memory",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

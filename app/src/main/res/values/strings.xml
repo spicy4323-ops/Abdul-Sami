@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ayesha AI</string>
+    <string name="greeting_title">Hello, I\'m Ayesha</string>
+    <string name="status_ready">Ready to assist</string>
+    <string name="status_listening">Listening…</string>
+    <string name="status_thinking">Processing neural response…</string>
+    <string name="status_speaking">Speaking…</string>
+    <string name="status_executing">Executing device action…</string>
+</resources>

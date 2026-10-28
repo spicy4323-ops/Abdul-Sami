@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer energy orbit ring -->
+    <path
+        android:strokeColor="#00F5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,26 A 28,28 0 1,0 54,82 A 28,28 0 1,0 54,26" />
+    <!-- Secondary tilted ellipse orbit -->
+    <path
+        android:strokeColor="#8B5CF6"
+        android:strokeWidth="2.0"
+        android:pathData="M 32,36 C 42,26 66,26 76,36 C 86,46 86,62 76,72 C 66,82 42,82 32,72 C 22,62 22,46 32,36 Z" />
+    <!-- Orbital Nodes -->
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M 54,22 A 4,4 0 1,0 54,30 A 4,4 0 1,0 54,22" />
+    <path
+        android:fillColor="#8B5CF6"
+        android:pathData="M 76,72 A 3.5,3.5 0 1,0 76,79 A 3.5,3.5 0 1,0 76,72" />
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M 32,72 A 3.5,3.5 0 1,0 32,79 A 3.5,3.5 0 1,0 32,72" />
+    <!-- Central Energy Core -->
+    <path
+        android:fillColor="#00F5FF"
+        android:pathData="M 54,42 A 12,12 0 1,0 54,66 A 12,12 0 1,0 54,42" />
+    <!-- Inner High-Intensity Core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,49 A 5,5 0 1,0 54,59 A 5,5 0 1,0 54,49" />
+</vector>
